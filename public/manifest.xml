@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.3"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:type="MailApp">
   <!-- Identifiant unique -->
@@ -26,7 +26,7 @@
 
   <!-- Pré-requis -->
   <Requirements>
-    <Sets DefaultMinVersion="1.1">
+    <Sets DefaultMinVersion="1.3">
       <Set Name="Mailbox"/>
     </Sets>
   </Requirements>
