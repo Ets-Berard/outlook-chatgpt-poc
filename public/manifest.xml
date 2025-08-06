@@ -7,9 +7,11 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Ets Bérard</ProviderName>
   <DefaultLocale>fr-FR</DefaultLocale>
+  
+  <!-- Nom et description -->
   <DisplayName DefaultValue="Outlook ChatGPT Résumeur"/>
   <Description DefaultValue="Complément Outlook pour résumer les emails avec ChatGPT"/>
-  
+
   <!-- Icônes -->
   <IconUrl DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc/assets/icon-80.png"/>
@@ -31,6 +33,7 @@
     <Form xsi:type="ItemRead">
       <DesktopSettings>
         <SourceLocation DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc/taskpane.html"/>
+        <RequestedHeight>350</RequestedHeight>
       </DesktopSettings>
     </Form>
   </FormSettings>
