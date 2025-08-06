@@ -24,15 +24,14 @@
     <Host Name="Mailbox"/>
   </Hosts>
 
-  <!-- Permissions -->
+  <!-- Pré-requis -->
   <Requirements>
     <Sets DefaultMinVersion="1.1">
       <Set Name="Mailbox"/>
     </Sets>
   </Requirements>
-  <Permissions>ReadWriteItem</Permissions>
 
-  <!-- Paramètres d'affichage -->
+  <!-- Panneau latéral (Task Pane) -->
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
@@ -40,4 +39,7 @@
       </DesktopSettings>
     </Form>
   </FormSettings>
+
+  <!-- Permissions -->
+  <Permissions>ReadWriteItem</Permissions>
 </OfficeApp>
