@@ -2,13 +2,16 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:type="MailApp">
-  <Id>12345678-1234-1234-1234-1234567890ab</Id>
+  <!-- Identifiant unique -->
+  <Id>7d0f1a3b-3a14-4a1f-b05e-98a2b0a42d6c</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Ets Bérard</ProviderName>
   <DefaultLocale>fr-FR</DefaultLocale>
+  
+  <!-- Nom et description -->
   <DisplayName DefaultValue="Outlook ChatGPT Résumeur"/>
   <Description DefaultValue="Complément Outlook pour résumer les emails avec ChatGPT"/>
-  
+
   <!-- Icônes -->
   <IconUrl DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc/assets/icon-80.png"/>
@@ -16,7 +19,7 @@
   <!-- URL de support -->
   <SupportUrl DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc"/>
 
-  <!-- Cible : Outlook -->
+  <!-- Cible -->
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
@@ -29,7 +32,7 @@
   </Requirements>
   <Permissions>ReadWriteItem</Permissions>
 
-  <!-- Panneau latéral (Task Pane) -->
+  <!-- Paramètres d'affichage -->
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
