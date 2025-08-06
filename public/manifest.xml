@@ -6,15 +6,15 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Ets Bérard</ProviderName>
   <DefaultLocale>fr-FR</DefaultLocale>
-  <DisplayName>Outlook ChatGPT Résumeur</DisplayName>
-  <Description>Complément Outlook pour résumer les emails avec ChatGPT</Description>
-
+  <DisplayName DefaultValue="Outlook ChatGPT Résumeur"/>
+  <Description DefaultValue="Complément Outlook pour résumer les emails avec ChatGPT"/>
+  
   <!-- Icônes -->
-  <IconUrl>https://Ets-Berard.github.io/outlook-chatgpt-poc/assets/icon-32.png</IconUrl>
-  <HighResolutionIconUrl>https://Ets-Berard.github.io/outlook-chatgpt-poc/assets/icon-80.png</HighResolutionIconUrl>
+  <IconUrl DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc/assets/icon-80.png"/>
 
   <!-- URL de support -->
-  <SupportUrl>https://Ets-Berard.github.io/outlook-chatgpt-poc</SupportUrl>
+  <SupportUrl DefaultValue="https://Ets-Berard.github.io/outlook-chatgpt-poc"/>
 
   <!-- Cible : Outlook -->
   <Hosts>
